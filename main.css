@@ -2,9 +2,17 @@
     margin: 0px;
     padding: 0px;
 }
-
 body{
-    background: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
+    background: #a8ff78;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(288, 97%, 71%, 0.678), hsla(99, 100%, 74%, 0.685)), url(https://fondosmil.com/fondo/17990.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(182, 94%, 69%, 0.678), hsla(278, 100%, 81%, 0.685)), url(https://fondosmil.com/fondo/17990.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
 
 .contenedor{
@@ -15,16 +23,23 @@ body{
 }
 
 .titulo{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    border-style: ridge;
+    border-color: rgb(148, 162, 255);
+    border-width: 20px;
 }
 
 .opciones p{
-    background: black;
+    background: rgba(255, 33, 33, 0);
     display: initial;
     padding: 12px;
-    color: #ffffff;
+    color: #000000;
     border-radius: 2px;
     font-weight: bold;
+    margin-bottom: 10px;
+    border-style: ridge;
+    border-color: rgb(148, 162, 255);
+    border-width: 20px;
 }
 
 p.p1{
